@@ -30,6 +30,8 @@ def main():
     usar_mayusculas = random.choice([True, False])
     usar_numeros = random.choice([True, False])
     usar_simbolos = random.choice([True, False])
+    #random choice eligira una true o false
+    
 
     contrasena = generar_contrasena(longitud, usar_mayusculas, usar_numeros, usar_simbolos)
     print("Contraseña generada:", contrasena)
